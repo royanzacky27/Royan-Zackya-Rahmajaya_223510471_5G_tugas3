@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block title %}Halaman Utama{% endblock %} {% block
+content %}
+<div class="jumbotron text-center">
+  <h1 class="display-4">Selamat Datang di FlaskApp</h1>
+  <p class="lead">
+    Aplikasi web yang dirancang untuk membantu Anda mencapai tujuan Anda.
+  </p>
+  <a class="btn btn-light btn-lg" href="/services" role="button"
+    >Lihat Layanan Kami</a
+  >
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      <img
+        src="https://via.placeholder.com/300"
+        class="card-img-top"
+        alt="Fitur Interaktif"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Fitur Interaktif</h5>
+        <p class="card-text">
+          Nikmati fitur interaktif yang membuat pengalaman pengguna lebih
+          menyenangkan.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      <img
+        src="https://via.placeholder.com/300"
+        class="card-img-top"
+        alt="Desain Responsif"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Desain Responsif</h5>
+        <p class="card-text">
+          Aplikasi kami dirancang untuk tampil baik di semua perangkat.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      <img
+        src="https://via.placeholder.com/300"
+        class="card-img-top"
+        alt="Dukungan Pelanggan"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Dukungan Pelanggan</h5>
+        <p class="card-text">
+          Kami menyediakan dukungan pelanggan 24/7 untuk membantu Anda.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
